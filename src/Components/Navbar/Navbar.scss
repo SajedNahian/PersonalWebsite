@@ -1,0 +1,17 @@
+nav {
+  margin-top: 0.8rem;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .links {
+    display: flex;
+    a {
+      margin-left: 0.8rem;
+    }
+  }
+}

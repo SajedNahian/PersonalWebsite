@@ -1,0 +1,41 @@
+.project {
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  padding: 0.2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    border: 1px solid rgb(122, 122, 122);
+  }
+
+  h2 {
+    margin-top: 0rem;
+  }
+
+  .info {
+    padding: 0.2rem 0.6rem;
+    &-top {
+      display: flex;
+      justify-content: space-between;
+
+      .icons {
+        font-size: 2rem;
+        display: flex;
+        a {
+          color: rgb(94, 94, 94);
+          margin-right: 0.4rem;
+
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  .description {
+    color: rgb(94, 94, 94);
+  }
+}
