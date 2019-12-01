@@ -7,7 +7,6 @@ interface Props {}
 export const Projects: React.FC<Props> = () => {
   return (
     <div className="projects-container">
-      <h1 className="text-center">Projects</h1>
       <div className="projects">
         <Project
           title="Test"

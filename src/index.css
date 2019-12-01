@@ -6,10 +6,43 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+* {
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  position: relative;
   display: block;
   text-decoration: none;
+  padding: 0.2rem;
+  color: #323232;
+}
+
+a:after,
+a:visited:after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   color: black;
+  width: 0%;
+  background: black;
+  transition: 0.2s;
+}
+a:hover:after,
+a:visited:hover:after {
+  width: 100%;
+}
+a.block,
+a:visited.block {
+  display: block;
+  padding: 0.5em;
+}
+a.block:hover,
+a:visited.block:hover {
+  background: #eee;
 }
 
 img {
