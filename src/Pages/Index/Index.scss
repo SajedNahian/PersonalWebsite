@@ -1,20 +1,31 @@
 .index {
+<<<<<<< HEAD
   margin-top: 1.4rem;
   padding: 0.8rem;
+=======
+  margin-top: 2rem;
+  padding: 0.4rem;
+>>>>>>> fed1e85b4c916d30af13efec5b40cc3c05708027
   .intro {
     line-height: 1.4;
   }
   .technologies {
+<<<<<<< HEAD
     &-title {
       margin-top: 2rem;
     }
+=======
+>>>>>>> fed1e85b4c916d30af13efec5b40cc3c05708027
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 0.6rem;
   }
+<<<<<<< HEAD
   @media (max-width: 600px) {
     .technologies {
       grid-template-columns: repeat(3, 1fr);
     }
   }
+=======
+>>>>>>> fed1e85b4c916d30af13efec5b40cc3c05708027
 }
