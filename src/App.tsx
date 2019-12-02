@@ -3,7 +3,7 @@ import './App.css';
 import { Navbar } from './Components/Navbar/Navbar';
 import { Projects } from './Pages/Projects/Projects';
 import { Index } from './Pages/Index/Index';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App: React.FC = () => {
   return (
