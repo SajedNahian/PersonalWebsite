@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.scss';
 
 interface Props {}
@@ -7,11 +8,11 @@ export const Navbar: React.FC<Props> = () => {
   return (
     <nav>
       <div className="logo">
-        <a href="">Sajed Nahian</a>
+        <Link to="/">Sajed Nahian</Link>
       </div>
       <div className="links">
-        <a href="">Projects</a>
-        <a href="">Resume</a>
+        <Link to="/projects">Projects</Link>
+        <Link to="/resume">Resume</Link>
       </div>
     </nav>
   );

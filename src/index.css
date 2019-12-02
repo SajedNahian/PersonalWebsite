@@ -6,10 +6,47 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+* {
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  position: relative;
   display: block;
   text-decoration: none;
+  padding: 0.2rem;
+  color: rgb(94, 94, 94);
+}
+
+a:hover {
   color: black;
+}
+
+a:after,
+a:visited:after {
+  content: '';
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgb(216, 216, 216);
+  width: 0%;
+  background: rgb(219, 219, 219);
+  transition: 0.2s;
+}
+a:hover:after,
+a:visited:hover:after {
+  width: 100%;
+}
+a.block,
+a:visited.block {
+  display: block;
+  padding: 0.5em;
+}
+a.block:hover,
+a:visited.block:hover {
+  background: #eee;
 }
 
 img {
@@ -23,6 +60,11 @@ h4,
 h5,
 p {
   margin: 0.8rem 0;
+  color: #323232;
+}
+
+p {
+  color: #646464;
 }
 
 .text-center {
