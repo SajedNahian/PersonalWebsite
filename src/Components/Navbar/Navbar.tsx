@@ -12,7 +12,7 @@ export const Navbar: React.FC<Props> = () => {
       </div>
       <div className="links">
         <Link to="/projects">Projects</Link>
-        <Link to="/resume">Resume</Link>
+        <a href="/resume.pdf">Resume</a>
       </div>
     </nav>
   );
