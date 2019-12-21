@@ -53,7 +53,7 @@ export const Projects: React.FC<Props> = () => {
         <Project
           title="Shoot.io"
           image={shootio}
-          description="Multiplayer first person shooter game. Built using Photon, Unity, and C#. No code available: I do not have a license for distribution of the visual assets used in the game."
+          description="Multiplayer first person shooter game. Built using Photon, Unity, and C#. No code available; I do not have a license for distribution of the visual assets used in the game."
           locked={true}
           hobby={true}
         />

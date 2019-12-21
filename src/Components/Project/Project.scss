@@ -47,3 +47,9 @@
     color: rgb(94, 94, 94);
   }
 }
+
+@media (max-width: 1000px) {
+  .project:hover {
+    transform: scale(1);
+  }
+}

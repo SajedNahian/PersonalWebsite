@@ -20,7 +20,7 @@ export const Index: React.FC<Props> = () => {
           University. I'm a software engineer who is always learning and keeping
           up with the industry. My specialty is web development and backend
           programming. Feel free to reach out to me at:
-          contactsajednahian(at)gmail.com. Hope to hear from you soon.
+          contactsajednahian(at)gmail.com.
         </p>
       </div>
       <h1 className="technologies-title">Technologies I Love</h1>

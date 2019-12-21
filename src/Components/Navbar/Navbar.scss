@@ -15,3 +15,13 @@ nav {
     }
   }
 }
+
+@media (max-width: 600px) {
+  nav .logo {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}
